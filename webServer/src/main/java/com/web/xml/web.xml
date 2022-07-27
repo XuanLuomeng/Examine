@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<web-app>
+    <servlet>
+        <servlet-name>HanFuSociety</servlet-name>
+        <servlet-class>com.web.servlet.HanFuSocietyServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.web.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>素材照片/叶秋.png</servlet-name>
+        <servlet-class>com.web.servlet.Picture1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>素材照片/思量.png</servlet-name>
+        <servlet-class>com.web.servlet.Picture2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>素材照片/春光.png</servlet-name>
+        <servlet-class>com.web.servlet.Picture3</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>素材照片/柔情.png</servlet-name>
+        <servlet-class>com.web.servlet.Picture4</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>素材照片/桃花岸.png</servlet-name>
+        <servlet-class>com.web.servlet.Picture5</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>素材照片/琵琶.png</servlet-name>
+        <servlet-class>com.web.servlet.Picture6</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>素材照片/汉服标志.jpg</servlet-name>
+        <servlet-class>com.web.servlet.Picture7</servlet-class>
+    </servlet>
+</web-app>

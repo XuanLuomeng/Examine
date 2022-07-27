@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>汉服社</title>
+	<style type="text/css">
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+			
+			.nav-bar {
+				background: #ec7696 url("素材照片/汉服标志.jpg") no-repeat top left;
+				width: 100%;
+				height: 50px;
+			}
+			
+			.nav {
+				padding-left: 200px;
+				list-style-type: none;
+				padding-top: 15px;
+			}
+			
+			.nav li {
+				float: left;
+				width: 100px;
+				text-align: center;
+			}
+			
+			.nav li a:link,
+			.nav li a:active,
+			.nav li a:visited {
+				text-decoration: none;
+				color: #FFFFFF;
+				display:block; 
+			}
+			
+			.nav li a:hover {
+				text-decoration: none;
+				color: green;
+			}
+			#Container {
+			margin:0 auto; 
+			width:900px;
+			}
+			#Header { 
+				height:50px;  
+				border-bottom:5px;
+				background-color:rgb(230,230,230);
+				border-bottom:5px solid #FFFFFF;   
+			}
+			#PageBody { 
+				height:520px; 
+				border-bottom:5px solid #FFFFFF;
+			}
+			#SideBar { 
+				float:left; 
+				width:80px; 
+				height:520px; 
+				background:#f3c8fc;
+				padding:50px auto;
+				border-right:5px solid #FFFFFF;
+				text-align:center;
+			}
+			#MainBody { 
+				float:left; 
+				width:815px; 
+				height:520px; 
+				background:#f3c8fc;
+			}
+			#Footer { 
+				height:60px; 
+				background-color:#ec7696;
+				padding-top:10px;
+				text-align:center;
+				font-family:"Courier New";
+				font-size:12px;
+			}
+			body { 
+				font-family:Verdana; 
+				font-size:16px; 
+				margin:0;
+				text-align:center;
+			}
+			p{
+				margin:2px;
+				font-size:14px;
+			}
+			#Header img{
+				float:left;	
+			}
+			h3{
+				text-align:center;
+				color:#ffffff;
+				font-size:24px;
+				background:#ee7ef8;
+				padding:6px auto;
+			}
+			.bv li{ 
+				list-style-type: none;
+				width:50px;
+				height:30px;
+				font-size:20px;
+				font-family:"华文新魏";	
+				padding:30px 14px;
+			}
+			.bv li a:link,a:visited,a:active{
+				text-decoration:none;
+				color:#6771FE;
+				display:block; 
+			}
+			.h3c_Search_industry_box {
+				margin-top: 20px;
+				padding-left: 10px;
+				padding-right: 10px;
+				overflow: hidden;
+			}
+			.h3c_Search_industry_box ul {
+				margin: 0 -14px;
+				list-style: none;
+			}
+			.h3c_Search_industry_box ul li {
+				float: left;
+			}		
+			.h3c_Search_industry_box ul li:hover .xih3c_3-10 {
+				display: block;
+			}	
+			.wrap {
+				margin-right: auto;
+				margin-left: auto;
+				width: 100%;
+				max-width: 1280px;
+			}
+			.col-xs-12 {
+				position: relative;
+				min-height: 1px;
+				padding-left: 5px;
+				padding-right: 5px;
+				padding-top: 10px;
+				width: 100%;
+			}
+			.col-sm-4 {
+				width: 30.33333333%;
+				margin: 0 0.3%;
+			}
+			.h3c_m_img_1 h5 {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				line-height: 45px;
+				color: #fff;
+				padding: 0 5%;
+			}
+			.h3c_m_img_1:hover h5 {
+				display: none;
+			}
+			.h3c_m_img_1 {
+				position: relative;
+			}
+			.h3c_m_img_1 img {
+				width: 100%;
+			}
+			.tran_scale {
+				overflow: hidden;
+				display: block;
+			}
+			.tran_scale img {
+				transition: all 0.3s;
+				-webkit-transition:  all 0.3s;
+			}
+			.tran_scale:hover img {
+				transform: scale(1.1, 1.1);
+				-webkit-transform: scale(1.1, 1.1);
+			}
+			.fnt_18 {
+				font-size: 18px;
+			}
+			.xih3c_3-10 {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				display: none;
+			}
+			.xih3c_3-10 h1 {
+				color: #fff;
+				text-align: center;
+				margin-top: 10%;
+			}
+			.xih3c_3-10 p {
+				color: #fff;
+				margin-top: 20px;
+				padding: 0 10%;
+				overflow: hidden;
+				height: 4.6em;
+			}
+			.bottom_h3c_3-10 {
+				display: block;
+				width: 101px;
+				height: 25px;
+				border: 1px solid  #fff;
+				text-align: center;
+				line-height: 23px;
+				font-size: 12px;
+				color: #fff;
+				margin: 0 auto;
+				margin-top: 30px
+			}
+			.ratio-img {
+				width: 100%;
+				height: auto;
+			}
+	</style>
+</head>
+	
+	<div id="Container">
+  		<div id="Header"> 
+        	<header class="nav-bar">
+			<nav>
+				<ul class="nav">
+					<li><a href="#">社团介绍</a></li>
+					<li><a href="#">新人入驻</a></li>
+					<li><a href="#">帮助中心</a></li>
+					<li><a href="#">社区指南</a></li>
+					<li><a href="#">社团活动</a></li>
+					<li><a href="#">向我们提建议</a></li>
+				</ul>
+			</nav>
+		</header>
+  		</div>
+  		<div id="PageBody">
+    		<div id="SideBar">
+                 <ul class="bv">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">分类</a></li>
+                    <li><a href="#">设计</a></li>
+                    <li><a href="#">论坛</a></li>
+                    <li><a href="#">商铺</a></li>
+					<li><a href="#">更多</a></li>
+                 </ul>         
+			</div>
+    		<div id="MainBody">	
+            	<h3>汉服展示</h3>
+				<div class="h3c_Search_industry_box wrap ">
+			<article>
+				<ul>
+					<li class="col-xs-12 col-sm-4">
+						<div class="h3c_m_img_1 h3chover tran_scale">
+							<a href="#">
+								<img class="ratio-img" src="素材照片/叶秋.png"  alt="" /></a>
+							<h5 class="fnt_18">叶秋</h5>
+							<div class="xih3c_3-10">
+								<h1 class="fnt_18">叶秋</h1>
+								<p>落叶知秋风，枯枝难挽留</p>
+								<a class="bottom_h3c_3-10" href="#"><h4>进入观赏</h4>
+								</a>
+							</div>
+						</div>
+					</li>
+
+					<li class="col-xs-12 col-sm-4">
+						<div class="h3c_m_img_1 h3chover tran_scale">
+							<a href="#">
+								<img class="ratio-img" src="素材照片/柔情.png" alt="" /></a>
+							<h5 class="fnt_18">柔情</h5>
+							<div class="xih3c_3-10">
+								<h1 class="fnt_18">柔情</h1>
+								<p>柔情似水，佳期如梦</p>
+								<a class="bottom_h3c_3-10" href="#"><h4>进入观赏</h4>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="col-xs-12 col-sm-4">
+						<div class="h3c_m_img_1 h3chover tran_scale">
+							<a href="#">
+								<img class="ratio-img " src="素材照片/春光.png" alt=" " /></a>
+							<h5 class="fnt_18 ">春光</h5>
+
+							<div class="xih3c_3-10 ">
+								<h1 class="fnt_18 ">春光</h1>
+								<p>春光织锦衣，纸鸢寄相思</p>
+								<a class="bottom_h3c_3-10 " href="#"><h4>进入观赏</h4>
+								</a>
+							</div>
+						</div>
+					</li>
+					
+					<li class="col-xs-12 col-sm-4">
+						<div class="h3c_m_img_1 h3chover tran_scale">
+							<a href="#">
+								<img class="ratio-img" src="素材照片/琵琶.png" alt="" /></a>
+							<h5 class="fnt_18">琵琶</h5>
+							<div class="xih3c_3-10">
+								<h1 class="fnt_18">琵琶</h1>
+								<p>琵琶声起几多情，纤手玉壶怎堪醉？</p>
+								<a class="bottom_h3c_3-10" href="#"><h4>进入观赏</h4>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="col-xs-12 col-sm-4">
+						<div class="h3c_m_img_1 h3chover tran_scale">
+							<a href="#">
+								<img class="ratio-img" src="素材照片/思量.png" alt="" /></a>
+							<h5 class="fnt_18">思量</h5>
+							<div class="xih3c_3-10">
+								<h1 class="fnt_18">思量</h1>
+								<p>十年来，不思量，自难忘</p>
+								<a class="bottom_h3c_3-10" href="#"><h4>进入观赏</h4>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="col-xs-12 col-sm-4">
+						<div class="h3c_m_img_1 h3chover tran_scale">
+							<a href="#">
+								<img class="ratio-img" src="素材照片/桃花岸.png" alt="" /></a>
+							<h5 class="fnt_18">桃花岸</h5>
+							<div class="xih3c_3-10">
+								<h1 class="fnt_18">桃花岸</h1>
+								<p>缃裙罗袜桃花岸，薄衫轻扇杏花楼。</p>
+								<a class="bottom_h3c_3-10" href="#"><h4>进入观赏</h4>
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</article>
+		</div>
+			</div>
+  			</div>
+  		<div id="Footer">
+        	<p>2012-2021  汉服社&copy; All rights reserved.  中国清远</p>
+			<p>广东金融学院-汉服社 邮箱：1079417593@qq.com 联系电话：15125975145</p>
+  		</div>
+	</div>
+<body>
+</body>
+</html>
